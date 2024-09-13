@@ -1,3 +1,7 @@
+import print_board
+import solve_sudoku
+import generate_sudoku
+
 def play_sudoku():
     # generate_sudoku 함수로 초기 보드를 생성합니다.
     board = generate_sudoku()

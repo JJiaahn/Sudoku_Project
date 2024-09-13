@@ -1,5 +1,5 @@
 import random
-
+from solve_sudoku import solve_sudoku
 def generate_sudoku():
     def fill_board(board):
         # 스도쿠의 각 3x3 블록을 무작위로 채움
